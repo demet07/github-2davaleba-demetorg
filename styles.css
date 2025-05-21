@@ -1,0 +1,25 @@
+ body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #111;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: white;
+    }
+    header nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      padding: 2rem;
+    }
+
