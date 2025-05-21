@@ -1,3 +1,8 @@
+ * {
+	margin: 0;
+	padding: 0;
+}
+ 
  body {
       font-family: 'Inter', sans-serif;
       margin: 0;
@@ -23,3 +28,54 @@
       padding: 2rem;
     }
 
+.card {
+	display: inline-block;
+	margin: 30px;
+	width: 362px;
+	height: 357px;
+	background-color: #FFFFFF;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	position: relative;
+}
+
+.card > img {
+	width: 362px;
+	height: 186px;
+}
+
+.texts {
+	padding-top: 68px;
+	padding-left: 37px;
+}
+
+.texts > p, .texts > span {
+	color: #8A8787;
+	font-weight: 700;
+	font-size: 10px;
+	margin-bottom: 15px;
+}
+
+.texts > img {
+	vertical-align: middle;
+	width: 16px;
+}
+
+#abs {
+	position: absolute;
+	top: 32px;
+	left: 41px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h3 {
+	color: white;
+}
+
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
